@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".MainActivity">
+    <Button
+        android:id="@+id/signin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="signin"
+        tools:layout_editor_absoluteX="93dp"
+        tools:layout_editor_absoluteY="221dp" />
+
+    <Button
+        android:id="@+id/login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="login"
+        tools:layout_editor_absoluteX="93dp"
+        tools:layout_editor_absoluteY="221dp" />
+
+    <Button
+        android:id="@+id/show"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="show"
+        tools:layout_editor_absoluteX="95dp"
+        tools:layout_editor_absoluteY="295dp" />
+
+    <Button
+        android:id="@+id/payout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="payout"
+        tools:layout_editor_absoluteX="86dp"
+        tools:layout_editor_absoluteY="403dp" />
+</LinearLayout>
